@@ -28,7 +28,7 @@ Make sure the kernel object file (`kxo.ko`) is built correctly, then you can ins
 $ sudo insmod kxo.ko
 ```
 
-`kxo` provides an interface for userspace interaction through the companion tool `kxo-user`.
+`kxo` provides an interface for userspace interaction through the companion tool `xo-user`.
 This utility offers the following functionality:
 - Display the current status of the `kxo` module (loaded/unloaded)
 - Real-time visualization of the tic-tac-toe game board
@@ -38,7 +38,7 @@ This utility offers the following functionality:
 
 Simply run the command below after the kernel module is loaded:
 ```
-$ sudo ./kxo-user
+$ sudo ./xo-user
 ```
 
 ## License
