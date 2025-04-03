@@ -220,7 +220,7 @@ static void ai_one_work_func(struct work_struct *w)
     tv_end = ktime_get();
 
     nsecs = (s64) ktime_to_ns(ktime_sub(tv_end, tv_start));
-    pr_info("kxo: [CPU#%d] doing %s for %llu usec\n", cpu, __func__,
+    pr_info("kxo: [CPU#%d] %s completed in %llu usec\n", cpu, __func__,
             (unsigned long long) nsecs >> 10);
     put_cpu();
 }
@@ -254,7 +254,7 @@ static void ai_two_work_func(struct work_struct *w)
     tv_end = ktime_get();
 
     nsecs = (s64) ktime_to_ns(ktime_sub(tv_end, tv_start));
-    pr_info("kxo: [CPU#%d] end doing %s for %llu usec\n", cpu, __func__,
+    pr_info("kxo: [CPU#%d] %s completed in %llu usec\n", cpu, __func__,
             (unsigned long long) nsecs >> 10);
     put_cpu();
 }
