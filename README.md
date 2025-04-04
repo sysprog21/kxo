@@ -36,11 +36,6 @@ This utility offers the following functionality:
   - `Ctrl + P`: Toggle pause/resume of the game board display
   - `Ctrl + Q`: Terminate all tic-tac-toe games running in kernel space
 
-In terminal environments that use flow control (particularly bash), you must enable the Ctrl+Q shortcut. Run the following command before starting xo-user:
-```
-$ stty start '^-' stop '^-'
-```
-
 Simply run the command below after the kernel module is loaded:
 ```
 $ sudo ./xo-user
