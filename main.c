@@ -19,7 +19,7 @@ MODULE_LICENSE("Dual MIT/GPL");
 MODULE_AUTHOR("National Cheng Kung University, Taiwan");
 MODULE_DESCRIPTION("In-kernel Tic-Tac-Toe game engine");
 
-/* Macro DECLARE_TASKLET_OLD exists for compatibiity.
+/* Macro DECLARE_TASKLET_OLD exists for compatibility.
  * See https://lwn.net/Articles/830964/
  */
 #ifndef DECLARE_TASKLET_OLD
