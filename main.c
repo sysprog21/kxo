@@ -435,6 +435,7 @@ static int kxo_release(struct inode *inode, struct file *filp)
         fast_buf_clear();
     }
     pr_info("release, current cnt: %d\n", atomic_read(&open_cnt));
+    attr_obj.end = 48;
 
     return 0;
 }
