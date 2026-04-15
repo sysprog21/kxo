@@ -1,0 +1,140 @@
+tests/test-coro.c
+  9ed499f49634dc7f 1-4,6-301
+tests/linux/slab.h
+  9ed499f49634dc7f 1-15
+zobrist.h
+  9ed499f49634dc7f 19,22
+tests/linux/ioctl.h
+  9ed499f49634dc7f 1-5
+mcts.h
+  9ed499f49634dc7f 12
+ai-game.h
+  9ed499f49634dc7f 6
+  0452f79599554cb7 10-15,26
+negamax.h
+  9ed499f49634dc7f 8
+zobrist.c
+  9ed499f49634dc7f 10,41,48-49,51-53,56-60,64-69,71-72,77-79,82-83,87,89,94-97,107-114
+tui.c
+  9ed499f49634dc7f 1-251,256-257,264,270-274,278-287,289-519,521-534,536-626,629-644,646-692
+  0452f79599554cb7 252-255,258-263,265-269,275-277,288,520,535,627-628,645
+negamax.c
+  9ed499f49634dc7f 29-33,35,39-41,53-55,57,61,65,75-76,94,103
+tests/test-integration.sh
+  9ed499f49634dc7f 1-133
+mcts.c
+  9ed499f49634dc7f 12,22-23,91,118,121,134,136,138,149,153,160-165,171,175-176,180,182,184,196-197,199-201
+  6dc8d4a94ba3a5a9 46-47,67,73,75,86,92-93,95-96
+tests/common.h
+  9ed499f49634dc7f 1-120
+tui.h
+  9ed499f49634dc7f 1-47
+util.h
+  9ed499f49634dc7f 3,6,8,10-11,13-14,22,34,37-40
+game.c
+  9ed499f49634dc7f 5-7,16,18-37,40,43,45,49-58,64,68,73,77-78
+main.c
+  9ed499f49634dc7f 3,8,11-12,19,22-24,37-40,45,58-68,103,105,120-121,128-129,131-134,155,178,212-215,219-221,223,225-228,232-246,248,251,255-260,268-271,275-277,279,281-284,288-302,304,307,311-316,328,338-343,346,350-351,354-357,359,376-425,428-450,452-463,466-468,471-475,477-478,483-484,490-492,500-514,516-518,520-521,523-524,527-528,534-535,591,593-594,600-615,623,634-637,645,647,649-650,712-725,727-732,738,740,766,775-776
+  0452f79599554cb7 70-74,122-123,154,168-176,180,185-206,229,249,285,305,344-345,348-349,352-353,451,464-465,469-470,476,493-496,498-499,515,625-630,726
+tests/test-game.c
+  9ed499f49634dc7f 1-7,9-339
+logof.txt
+  9ed499f49634dc7f 1-9
+tests/linux/types.h
+  9ed499f49634dc7f 1-12
+xo-user.c
+  9ed499f49634dc7f 11,13,19-29,50,53-54,60,62,66,74-78,82,86-140,145-147,155-158,162-163,165-167,169,171-173,175-179,181-182,184
+rl.c
+  9ed499f49634dc7f 4-5
+  0452f79599554cb7 6,58-60
+rl-state-ht.c
+  9ed499f49634dc7f 5-6,10-13,23,55-56,59-60
+README.md
+  9ed499f49634dc7f 4-8,10-26,28-34,38-42,45,47,49-59,62-71,74-85
+game.h
+  9ed499f49634dc7f 3-6,11,15-21,25,27-33,35-37,41,48-52,54-66,68,80-106,108-111
+  0452f79599554cb7 22-24,26
+coro.h
+  9ed499f49634dc7f 1-56
+.gitignore
+  9ed499f49634dc7f 10-11
+Makefile
+  9ed499f49634dc7f 3,11-20,26-27,29-52,60
+rl-private.h
+  9ed499f49634dc7f 4
+coro.c
+  9ed499f49634dc7f 1-17,22-23,26-71,73-77,80-158,163-186,189-235,237-257,260-351
+  6dc8d4a94ba3a5a9 18-21,24-25,78-79,159-162,236,259
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "eadc9cc94fb96546a1c1bf0692e51f8ecf33b6dd",
+  "prompts": {
+    "0452f79599554cb7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d9154-b1b1-75c2-ba5a-f70db89c0630",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 119,
+      "total_deletions": 40,
+      "accepted_lines": 112,
+      "overriden_lines": 0
+    },
+    "54a027968e894255": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2263c02-268a-46f9-875e-ce6292fa4524",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 87,
+      "total_deletions": 50,
+      "accepted_lines": 31,
+      "overriden_lines": 0
+    },
+    "6dc8d4a94ba3a5a9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d91db-3202-73e0-98db-02b225ccda8c",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 33,
+      "total_deletions": 32,
+      "accepted_lines": 33,
+      "overriden_lines": 0
+    },
+    "797e86755139b5ff": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d91ec-dadc-77e0-98ca-e052170f16ec",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 25,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "9ed499f49634dc7f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cac0e560-83fa-424f-a31d-6bf71135c15c",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 3518,
+      "total_deletions": 762,
+      "accepted_lines": 2810,
+      "overriden_lines": 3
+    }
+  }
+}
