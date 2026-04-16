@@ -1,0 +1,27 @@
+.gitignore
+  0dfc50aec232efab 12
+scripts/aspell-pws
+  0dfc50aec232efab 181-188
+Makefile
+  0dfc50aec232efab 1-2,27-31,33,35,37-39,41-43,46,50,54,58,64,68,72,76,102-105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "a7febcc92308ea8ea1b67c1177df042e4eb51e2e",
+  "prompts": {
+    "0dfc50aec232efab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "811460f9-fd8d-4f95-9688-b730abaa4c3b",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 638,
+      "total_deletions": 334,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}
