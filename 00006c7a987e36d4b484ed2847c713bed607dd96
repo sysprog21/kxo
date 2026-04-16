@@ -1,0 +1,25 @@
+scripts/pre-commit.hook
+  0dfc50aec232efab 5-9,11-19,21-25,29-31,35-36,38-61,63-77,79-86,89-90,92-95,98-114
+scripts/install-git-hooks
+  0dfc50aec232efab 8,11,14,20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "00006c7a987e36d4b484ed2847c713bed607dd96",
+  "prompts": {
+    "0dfc50aec232efab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "811460f9-fd8d-4f95-9688-b730abaa4c3b",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 18,
+      "total_deletions": 12,
+      "accepted_lines": 158,
+      "overriden_lines": 0
+    }
+  }
+}
