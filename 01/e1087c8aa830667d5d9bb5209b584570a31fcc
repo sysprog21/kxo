@@ -1,0 +1,31 @@
+.gitignore
+  0dfc50aec232efab 13
+scripts/aspell-pws
+  0dfc50aec232efab 189-191
+Makefile
+  0dfc50aec232efab 22-25,34,36,85-100
+scripts/vanity-hash.py
+  0dfc50aec232efab 1-109
+scripts/post-commit.hook
+  0dfc50aec232efab 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "01e1087c8aa830667d5d9bb5209b584570a31fcc",
+  "prompts": {
+    "0dfc50aec232efab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "811460f9-fd8d-4f95-9688-b730abaa4c3b",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 26,
+      "total_deletions": 3,
+      "accepted_lines": 207,
+      "overriden_lines": 0
+    }
+  }
+}
