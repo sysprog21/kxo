@@ -1,0 +1,34 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "00007bf2b962de182741952374a11091c3a6cff2",
+  "prompts": {
+    "0dfc50aec232efab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "811460f9-fd8d-4f95-9688-b730abaa4c3b",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 2002,
+      "overriden_lines": 0
+    },
+    "711d501a5dce9dd4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bd174e7b-cae8-47a5-9c95-2c17101bc740",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 112,
+      "overriden_lines": 0
+    }
+  }
+}
