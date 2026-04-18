@@ -1,0 +1,9 @@
+src/mcts.c
+  42906d1261a009f8 179-180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "23e09545c9aa73ac0ed494df3eaca811efe857ce",
+  "prompts": {}
+}
