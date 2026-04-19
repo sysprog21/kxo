@@ -1,0 +1,76 @@
+scripts/commit-msg.hook
+  eb93df7890c3e10c 367,392-408,416-418,421-423,434,439-488
+  522080ede4087e27 409-415,419-420,424-433,435-438
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "000076f589fe8263449b3245f3c60b3f9616af6c",
+  "prompts": {
+    "0dfc50aec232efab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "811460f9-fd8d-4f95-9688-b730abaa4c3b",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 233,
+      "overriden_lines": 0
+    },
+    "4254757ae7b0c3cf": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019da1e9-f7f4-75a0-8abb-6235003824f4",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 13,
+      "total_deletions": 9,
+      "accepted_lines": 12,
+      "overriden_lines": 0
+    },
+    "522080ede4087e27": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019da2b3-b204-7233-8cd6-e3c7c35151b3",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 23,
+      "total_deletions": 5,
+      "accepted_lines": 23,
+      "overriden_lines": 0
+    },
+    "cde9ab2a89d6df45": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a68689-458e-4ae8-891c-36d5ec203b2d",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 76,
+      "total_deletions": 19,
+      "accepted_lines": 47,
+      "overriden_lines": 0
+    },
+    "eb93df7890c3e10c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f26e95f9-404d-4329-97a7-1452b9065d99",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jim Huang",
+      "messages": [],
+      "total_additions": 224,
+      "total_deletions": 17,
+      "accepted_lines": 144,
+      "overriden_lines": 0
+    }
+  }
+}
